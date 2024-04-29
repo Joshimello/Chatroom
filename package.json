@@ -1,0 +1,41 @@
+{
+  "name": "chatroom",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json"
+  },
+  "devDependencies": {
+    "@fontsource-variable/raleway": "^5.0.18",
+    "@sveltejs/vite-plugin-svelte": "^3.0.1",
+    "@tsconfig/svelte": "^5.0.2",
+    "@types/node": "^20.12.7",
+    "autoprefixer": "^10.4.16",
+    "cmdk-sv": "^0.0.17",
+    "firebase": "^10.11.0",
+    "lucide-svelte": "^0.368.0",
+    "minidenticons": "^4.2.1",
+    "postcss": "^8.4.32",
+    "postcss-load-config": "^5.0.2",
+    "svelte": "^4.2.12",
+    "svelte-check": "^3.6.7",
+    "svelte-tenor": "^0.2.0",
+    "tailwindcss": "^3.3.6",
+    "tslib": "^2.6.2",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  },
+  "dependencies": {
+    "bits-ui": "^0.21.5",
+    "clsx": "^2.1.0",
+    "mode-watcher": "^0.3.0",
+    "svelte-radix": "^1.1.0",
+    "svelte-sonner": "^0.3.22",
+    "tailwind-merge": "^2.2.2",
+    "tailwind-variants": "^0.2.1"
+  }
+}
