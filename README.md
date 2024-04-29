@@ -35,23 +35,71 @@
 
 ### How to setup your project
 
--  Describe STEP by STEP (i.e. `cd Midterm`, `npm install` ...)
+First, clone the repo, or download the zipped package
+
+```bash
+git clone https://github.com/Joshimello/Chatroom
+cd Chatroom
+```
+
+Run the following command to install the dependencies
+
+```bash
+npm i
+```
+
+Finally, you can start the development server
+
+```bash
+npm run dev
+```
+
+Optionally, you may build the SPA with
+
+```bash
+npm run build
+```
 
 ### How to use 
 
-- Describe how to use your web and maybe insert images or gifs to help you explain.
+In the initial authentication page, you will be prompted a new password if a new email is entered, or prompted for password if the email has already registered. Alternatively, you may use Google to login.
+
+![alt text](image.png)
+
+After logging in, from the sidebar, you may see all users, all chatrooms, and your own account settings. There will be no chatrooms initially, you may create one with the New Chatroom button. You may logout anytime with the logout button as well.
+
+![alt text](image-1.png)
+
+You can select people to add into the chatroom. You may send texts, images, videos, and tenor gifs.
+New joins will be announced after inviting.
+
+![alt text](image-2.png)
 
 ### Function description
 
-- Describe your bonus function and how to use it.
+1. Authentication
+    - Sign up with email and password
+    - Sign in with email and password
+    - Sign in with Google OAuth
+    - Sign out
+
+2. Main Platform
+    - Users list
+    - Chatrooms
+        - Create chatrooms
+        - Add users to chatroom from list
+        - Send text
+        - Send image
+        - Send video
+        - Send Tenor gif
 
 ### Firebase page link
 
-- Your web page `URL`
+[chatroom-111000178.web.app](https://chatroom-111000178.web.app)
 
 ### Others (Optional)
 
-- Anything you want to say to TAs.
+Randomly occuring Firebase issue, where users are unable to create rooms after account creation. Simple fix by reloading.
 
 <style>
 table th{
