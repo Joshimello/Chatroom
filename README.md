@@ -5,30 +5,30 @@
 | **Basic components**                             | **Score** | **Check** |
 | :----------------------------------------------- | :-------: | :-------: |
 | Membership Mechanism                             | 15%       | Y         |
-| Firebase page                                    | 5%        | N         |
-| Database read/write                              | 15%       | N         |
+| Firebase page                                    | 5%        | Y         |
+| Database read/write                              | 15%       | Y         |
 | RWD                                              | 15%       | Y         |
-| Chatroom                                         | 20%       | N         |
+| Chatroom                                         | 20%       | Y         |
 
 | **Advanced tools**                               | **Score** | **Check** |
 | :----------------------------------------------- | :-------: | :-------: |
 | Using React                                      | 10%       | Y         |
-| Third-Party Sign In                              | 1%        | N         |
+| Third-Party Sign In                              | 1%        | Y         |
 | Notification                                     | 5%        | N         |
 | CSS Animation                                    | 2%        | Y         |
-| Security                                         | 2%        | N         |
+| Security                                         | 2%        | Y         |
 
 | **Other useful functions**                       | **Score** | **Check** |
 | :----------------------------------------------- | :-------: | :-------: |
-| User Profile                                     | 1%        | N         |
-| Profile Picture                                  | 1%        | N         |
-| Send Image                                       | 1%        | N         |
-| Send Video                                       | 1%        | N         |
+| User Profile                                     | 1%        | Y         |
+| Profile Picture                                  | 1%        | Y         |
+| Send Image                                       | 1%        | Y         |
+| Send Video                                       | 1%        | Y         |
 | Chatbot                                          | 2%        | N         |
 | Block User                                       | 2%        | N         |
 | Unsend Message                                   | 3%        | N         |
 | Search For Message                               | 3%        | N         |
-| Send GIF From Tenor API                          | 3%        | N         |
+| Send GIF From Tenor API                          | 3%        | Y         |
 
 
 ---

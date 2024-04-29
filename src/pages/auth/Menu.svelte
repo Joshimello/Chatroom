@@ -2,7 +2,7 @@
   import { Input } from "$lib/components/ui/input"
   import { Button } from "$lib/components/ui/button"
   import { auth } from "$lib/firebase"
-  import { fetchSignInMethodsForEmail } from "firebase/auth"
+  import { fetchSignInMethodsForEmail, signInWithPopup, GoogleAuthProvider } from "firebase/auth"
   import { toast } from "svelte-sonner"
   import { state, email } from "./stores"
   import { FirebaseError } from "@firebase/util"
@@ -26,6 +26,22 @@
       }
     }
   }
+
+  const googleSignIn = async () => {
+    try {
+      const provider = new GoogleAuthProvider()
+      await signInWithPopup(auth, provider)
+    }
+    catch (err) {
+      if (err instanceof FirebaseError) {
+        toast.error(err.message)
+      }
+      else {
+        toast.error("An error occurred")
+      }
+    }
+  }
+
 </script>
 
 <div class="pt-8 flex flex-col gap-2">
@@ -42,7 +58,7 @@
 
 <div class="pt-8 flex flex-col gap-2">
   <span>Or continue with Google</span>
-  <Button variant="outline">
+  <Button variant="outline" on:click={googleSignIn}>
     Google
   </Button>
 </div>
